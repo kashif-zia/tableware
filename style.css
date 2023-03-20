@@ -1,0 +1,85 @@
+/* ***************MAIN SECTION CSS START***************  */
+.section-main{
+    background-color: #8CC1E1;
+    height: 600px;
+}
+.main-header-left-content{
+    padding: 30px 0px;
+}
+.main-header-title span{
+font-size: 24px;
+color: #ffff;
+font-weight: 700;
+}
+.main-header-sub-title h1{
+color: #ffff;
+font-size: 200px;
+font-weight: 700;
+letter-spacing: 2px;
+}
+.main-header-desc{
+    font-size: 30px;
+    font-weight: 700;
+   color: #fff; 
+}
+.download-app img{
+    width: 220px;
+}
+.main-header-mbile-img img{
+    height: 700px;
+    width: 300px;
+}
+
+/* ***************SECTION PAYALA START*************  */
+.section-payala{
+padding: 200px 0px;
+background: #ffff;
+}
+.section-payala-desc p{
+    color: #003A58;
+    font-size: 50px;
+    font-weight: 700;
+}
+/* ***************SECTION SDGS START*************  */
+
+.section-sdgs{
+    background-color: #EAF3F8;
+    height: 600px;
+    padding: 50px 0px;
+}
+.sdgs-right-col-content p{
+    color: #003A58;
+    font-size: 50px;
+    font-weight: 700;
+}
+.sdgs-left-col-img img{
+    height: 600px;
+    width: 300px;
+}
+/* ***************SECTION STEPS START*************** */
+.section-steps{
+    padding: 100px 0px;
+}
+.step-1-content{
+    background-color: #F5F5ED;
+    padding: 50px;
+}
+.stetp-section-title p{
+    font-size: 40px;
+    color:#003A58;
+    font-weight: 700;
+}
+.step-1-title p{
+    font-size: 24px;
+    margin: 0px 0px 50px;
+    color:#003A58;
+    font-weight: 700;
+}
+@media only screen and (max-width:768px) {
+    .main-header-sub-title h1{
+        font-size: 30px;
+    }
+    .section-main{
+        height: auto;
+    }
+}
