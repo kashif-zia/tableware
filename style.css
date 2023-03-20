@@ -75,6 +75,23 @@ background: #ffff;
     color:#003A58;
     font-weight: 700;
 }
+.price-btn{
+    background-color: #6A8C7A;
+    color: #fff;
+    width: 100%;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+}
+.step-1-card{
+    border: none;
+    background-color: transparent;
+}
+.card-img-top{
+    height: 250px;
+    object-fit: contain;
+}
 @media only screen and (max-width:768px) {
     .main-header-sub-title h1{
         font-size: 30px;
