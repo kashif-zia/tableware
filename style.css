@@ -1,7 +1,8 @@
 /* ***************MAIN SECTION CSS START***************  */
 .section-main{
     background-color: #8CC1E1;
-    height: 600px;
+
+margin-bottom: -100px;
 }
 .main-header-left-content{
     padding: 30px 0px;
@@ -26,7 +27,6 @@ letter-spacing: 2px;
     width: 220px;
 }
 .main-header-mbile-img img{
-    height: 700px;
    width: 100%;
 }
 
@@ -44,17 +44,16 @@ background: #ffff;
 
 .section-sdgs{
     background-color: #EAF3F8;
-    height: 600px;
-    padding: 50px 0px;
+    padding: 0px 0px;
+    margin-bottom: -50px;
 }
 .sdgs-right-col-content p{
     color: #003A58;
     font-size: 50px;
     font-weight: 700;
 }
-.sdgs-left-col-img img{
-    height: 600px;
-    width: 300px;
+.sdgs-left-col-img{
+margin-bottom: -50px;
 }
 /* ***************SECTION STEPS START*************** */
 .section-steps{
@@ -62,7 +61,8 @@ background: #ffff;
 }
 .step-1-content{
     background-color: #F5F5ED;
-    padding: 50px;
+    padding: 50px 100px;
+    position: relative;
 }
 .stetp-section-title p{
     font-size: 40px;
@@ -92,6 +92,41 @@ background: #ffff;
     height: 250px;
     object-fit: contain;
 }
+.step-circle{
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    background: #003A58;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-50%);
+}
+.step-circle span{
+    font-size: 30px;
+    color: #ffff;
+}
+/* **************STEP TWO CONTENT***************  */
+.step-2-content , .step-3-content , .step-4-content{ 
+    background-color: #F5F5ED;
+    padding: 50px 100px;
+}
+.step-2-row{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.step-2-img img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+/* **************STEP FOUR CONTENT***************  */
 @media only screen and (max-width:768px) {
     .main-header-sub-title h1{
         font-size: 30px;
