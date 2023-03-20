@@ -126,6 +126,18 @@ margin-bottom: -50px;
     height: 200px;
     object-fit: contain;
 }
+.step-four-row{
+    display: flex;
+  justify-content: center;
+ column-gap: 30px;
+}
+.message-clippath{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 40% 75%, 5% 100%, 15% 75%, 0% 75%);
+    background: #8CC1E1;
+    height: 267px;
+    width: 280px;
+    border-radius: 5px;
+}
 /* **************STEP FOUR CONTENT***************  */
 @media only screen and (max-width:768px) {
     .main-header-sub-title h1{
