@@ -1,33 +1,81 @@
+@font-face {
+    font-family: 'NotoSansJP-Black';
+    /*a name to be used later*/
+    src: url('./assets/Noto_Sans_JP/NotoSansJP-Black.otf');
+    /*URL to font*/
+}
+
+@font-face {
+    font-family: 'NotoSansJP-Bold';
+    /*a name to be used later*/
+    src: url('./assets/Noto_Sans_JP/NotoSansJP-Bold.otf');
+    /*URL to font*/
+}
+
+@font-face {
+    font-family: 'NotoSansJP-Light';
+    /*a name to be used later*/
+    src: url('./assets/Noto_Sans_JP/NotoSansJP-Light.otf');
+    /*URL to font*/
+}
+
+@font-face {
+    font-family: 'NotoSansJP-Medium';
+    /*a name to be used later*/
+    src: url('./assets/Noto_Sans_JP/NotoSansJP-Medium.otf');
+    /*URL to font*/
+}
+
+@font-face {
+    font-family: 'NotoSansJP-Regular';
+    /*a name to be used later*/
+    src: url('./assets/Noto_Sans_JP/NotoSansJP-Regular.otf');
+    /*URL to font*/
+
+}
+
+@font-face {
+    font-family: 'NotoSansJP-Thin';
+    /*a name to be used later*/
+    src: url('./assets/Noto_Sans_JP/NotoSansJP-Thin.otf');
+    /*URL to font*/
+}
+
 /* ***************MAIN SECTION CSS START***************  */
 .section-main {
     background-color: #8CC1E1;
-    margin-bottom: -75px;
+
 }
 
 .main-header-left-content {
-    padding: 30px 0px;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .main-header-title span {
     font-size: 40px;
     color: #ffff;
-    font-weight: 700;
+    font-family: NotoSansJP-Bold;
 }
 
 .main-header-sub-title h1 {
     color: #ffff;
     font-size: 200px;
-    font-weight: 700;
+    font-family: NotoSansJP-Bold;
     line-height: 1;
 }
 
 .main-header-desc {
     font-size: 32px;
-    font-weight: 700;
+    font-family: NotoSansJP-Bold;
     color: #fff;
     margin-top: 25px;
 }
-.download-app img{
+
+.download-app img {
     width: 260px;
 }
 
@@ -38,16 +86,16 @@
 .main-header-mbile-img img {
 
     width: 100%;
-    height: 600px;
-    object-fit: contain;
+    margin-bottom: -90px;
 }
 
 /* ***************SECTION PAYALA START*************  */
 .section-payala {
-    padding: 140px 0px 80px;
+    padding: 110px 0px 20px;
     background: #ffff;
 }
-.section-payala-left-col{
+
+.section-payala-left-col {
     display: flex;
     align-items: center;
     height: 100%;
@@ -58,7 +106,7 @@
 .section-payala-desc p {
     color: #003A58;
     font-size: 32px;
-    font-weight: 700;
+    font-family: NotoSansJP-Bold;
     margin-bottom: 0px;
 }
 
@@ -73,11 +121,19 @@
 .sdgs-right-col-content p {
     color: #003A58;
     font-size: 32px;
-    font-weight: 700;
+    font-family: NotoSansJP-Bold;
+    margin-left: 30px;
 }
 
 .sdgs-left-col-img {
-    margin-bottom: -50px;
+    margin-bottom: -65px;
+}
+
+.sub-p {
+    font-size: 14px;
+    color: #003A58;
+    font-family: NotoSansJP-Regular;
+    margin-bottom: 0px;
 }
 
 /* ***************SECTION STEPS START*************** */
@@ -95,15 +151,31 @@
 .stetp-section-title p {
     font-size: 32px;
     color: #003A58;
-    font-weight: 700;
+    font-family: NotoSansJP-Bold;
     margin-bottom: 65px;
 }
 
-.step-1-title p {
+.step-1-title {
     font-size: 28px;
-    margin: 0px 0px 50px;
+    margin: 0px 0px 25px;
     color: #003A58;
-    font-weight: 700;
+    font-family: NotoSansJP-Bold;
+}
+
+.step-1-subtitle {
+    font-size: 24px;
+    font-family: NotoSansJP-Regular;
+    color: #003A58;
+}
+
+.glass-img {
+    width: 100%;
+    height: 300px;
+}
+
+.bowl-img {
+    width: 367px;
+    height: 307px;
 }
 
 .price-btn {
@@ -115,18 +187,47 @@
     text-align: center;
     border-radius: 8px;
     font-size: 18px;
+    font-family: NotoSansJP-Bold;
 }
-.price-btn:hover{
+
+.price-btn:hover {
     text-decoration: none;
     color: #fff;
 }
+
 .step-1-card {
     border: none;
     background-color: transparent;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+.addition-icon {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addition-icon span {
+    color: #6A8C7A;
+    font-size: 60px;
+    font-family: NotoSansJP-Black;
 }
 
 .card-img-top {
-    height: 250px;
+    height: 258px;
+    object-fit: contain;
+    width: 310px;
+}
+
+.cash-recipt-img {
+    height: 215px;
+    width: 100%;
     object-fit: contain;
 }
 
@@ -144,6 +245,7 @@
     flex-direction: column;
     align-items: center;
     transform: translateY(-50%);
+    text-transform: uppercase;
 }
 
 .step-circle span {
@@ -156,49 +258,272 @@
 .step-3-content,
 .step-4-content {
     background-color: #F5F5ED;
-    padding: 50px 100px;
+    padding: 50px 60px;
 }
 
 .step-2-row {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    column-gap: 10px;
+    align-items: baseline;
 }
 
-.step-2-img img {
-    width: 200px;
-    height: 200px;
-    object-fit: contain;
-}
+
 
 .step-four-row {
     display: flex;
     justify-content: center;
-    column-gap: 30px;
+    column-gap: 5px;
     align-items: center;
 }
 
 .message-clippath {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 40% 75%, 5% 100%, 15% 75%, 0% 75%);
-    background: #8CC1E1;
-    height: 200px;
-    width: 220px;
+    height: 255px;
+    width: 300px;
     border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    right: -8%;
+    transform: translateY(-50%);
+    background-image: url(./食器LP/message.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+
 }
-.message-clippath p{
-font-size: 28px;
-color:#fff;
-margin-bottom: 0px;
-text-align: center;
+
+.product-label {
+    background-color: #6A8C7A;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: NotoSansJP-Bold;
+}
+
+.product-label:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.message-clippath span {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: NotoSansJP-Bold;
+}
+
+.main-footer {
+    background-color: #EAF3F8;
+    text-align: center;
+    padding: 50px 15px;
+}
+
+.footer-h2 {
+    font-size: 32px;
+    font-family: NotoSansJP-Bold;
+    color: #003A58;
+    line-height: 47px;
+}
+
+.coins-image {
+    height: 258px;
+    object-fit: contain;
+    width: 250 px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-header-sub-title h1 {
+        font-size: 100px;
+    }
+
+    .main-header-desc {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+
+    .main-header-title span {
+        font-size: 30px;
+    }
+
+    .main-header-mbile-img img {
+        margin-bottom: -50px;
+    }
+
+    .download-app img {
+        width: 200px;
+    }
+
+    .section-payala-desc p {
+        font-size: 20px;
+    }
+
+    .section-payala {
+        padding: 60px 0px 0px;
+    }
+
+    .sdgs-right-col-content p {
+        font-size: 20px;
+    }
+
+    .sdgs-left-col-img {
+        margin-bottom: -40px;
+    }
+
+    .card-img-top {
+        width: 200px;
+        height: 180px;
+    }
+
+    .step-1-content {
+        padding: 50px 30px 50px 80px;
+    }
+
+    .price-btn {
+        font-size: 16px;
+    }
+
+    .step-circle {
+        width: 110px;
+        height: 110px;
+        top: 50%;
+        left: -38px;
+    }
+
+    .step-circle span {
+        font-size: 24px;
+    }
+
+    .step-2-content,
+    .step-3-content,
+    .step-4-content {
+        padding: 50px 30px 50px 30px;
+    }
+
+    .bowl-img {
+        width: 260px;
+        height: auto;
+    }
+
+    .glass-img {
+        width: 100%;
+        height: 190px;
+    }
+
+    .message-clippath {
+        height: 190px;
+        width: 210px;
+        padding: 35px 15px;
+    }
+
+    .message-clippath span {
+        font-size: 20px;
+
+    }
+
+    .cash-recipt-img {
+        height: 140px;
+    }
+
+    .coins-img {
+        height: auto;
+        width: auto;
+    }
+
+    .coins-image {
+        width: 180px;
+        height: auto;
+    }
 }
 
 /* **************STEP FOUR CONTENT***************  */
 @media only screen and (max-width:768px) {
+    .step-circle {
+        width: 110px;
+        height: 110px;
+        top: -5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .step-1-content {
+        padding: 80px 20px 50px 20px;
+    }
+
+    .step-2-content,
+    .step-3-content,
+    .step-4-content {
+        padding: 80px 30px 50px 30px;
+        margin-bottom: 75px;
+    }
+
+    .step-four-row {
+        flex-direction: column;
+    }
+
+    .message-clippath {
+        height: 230px;
+        width: 260px;
+        padding: 35px 15px;
+        position: inherit;
+        top: 0%;
+        right: 0%;
+        transform: translateY(0%);
+    }
+
     .main-header-sub-title h1 {
-        font-size: 30px;
+        font-size: 100px;
+    }
+
+    .main-header-mbile-img {
+        margin-bottom: 20px;
     }
 
     .section-main {
         height: auto;
+    }
+
+    .main-header-mbile-img img {
+        display: flex;
+        width: 300px;
+        margin: auto;
+    }
+
+    .sdgs-left-col-img {
+        margin-bottom: 0px;
+    }
+
+    .sdgs-left-col-img img {
+        width: 300px;
+        margin: auto;
+        display: flex;
+    }
+
+    .row-inverse-mbl {
+        flex-direction: column-reverse;
+    }
+
+    .section-main {
+        padding: 50px 0px;
+    }
+
+    .main-header-title span {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width:475px) {
+    .bowl-img{
+
+    width: 190px;
+
+    }
+    .glass-img {
+        height: 145px;
     }
 }
