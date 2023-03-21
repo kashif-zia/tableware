@@ -27,8 +27,7 @@
     color: #fff;
     margin-top: 25px;
 }
-
-.download-app img {
+.download-app img{
     width: 260px;
 }
 
@@ -125,9 +124,7 @@
     border: none;
     background-color: transparent;
 }
-.step-1-card:before{
 
-}
 .card-img-top {
     height: 250px;
     object-fit: contain;
@@ -194,7 +191,7 @@ color:#fff;
 margin-bottom: 0px;
 text-align: center;
 }
-.card step-1-card
+
 /* **************STEP FOUR CONTENT***************  */
 @media only screen and (max-width:768px) {
     .main-header-sub-title h1 {
