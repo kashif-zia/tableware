@@ -1,80 +1,113 @@
 /* ***************MAIN SECTION CSS START***************  */
-.section-main{
+.section-main {
     background-color: #8CC1E1;
-
-margin-bottom: -100px;
+    margin-bottom: -75px;
 }
-.main-header-left-content{
+
+.main-header-left-content {
     padding: 30px 0px;
 }
-.main-header-title span{
-font-size: 40px;
-color: #ffff;
-font-weight: 700;
+
+.main-header-title span {
+    font-size: 40px;
+    color: #ffff;
+    font-weight: 700;
 }
-.main-header-sub-title h1{
-color: #ffff;
-font-size: 200px;
-font-weight: 700;
+
+.main-header-sub-title h1 {
+    color: #ffff;
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 1;
 }
-.main-header-desc{
+
+.main-header-desc {
     font-size: 32px;
     font-weight: 700;
-   color: #fff; 
+    color: #fff;
+    margin-top: 25px;
 }
-.download-app img{
-    width: 220px;
+
+.download-app img {
+    width: 260px;
 }
-.main-header-mbile-img img{
-   width: 100%;
+
+.download-app {
+    margin-top: 18px;
+}
+
+.main-header-mbile-img img {
+
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
 }
 
 /* ***************SECTION PAYALA START*************  */
-.section-payala{
-padding: 200px 0px;
-background: #ffff;
+.section-payala {
+    padding: 140px 0px 80px;
+    background: #ffff;
 }
-.section-payala-desc p{
+.section-payala-left-col{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+
+.section-payala-desc p {
     color: #003A58;
     font-size: 32px;
     font-weight: 700;
+    margin-bottom: 0px;
 }
+
 /* ***************SECTION SDGS START*************  */
 
-.section-sdgs{
+.section-sdgs {
     background-color: #EAF3F8;
     padding: 0px 0px;
     margin-bottom: -50px;
 }
-.sdgs-right-col-content p{
+
+.sdgs-right-col-content p {
     color: #003A58;
     font-size: 32px;
     font-weight: 700;
 }
-.sdgs-left-col-img{
-margin-bottom: -50px;
+
+.sdgs-left-col-img {
+    margin-bottom: -50px;
 }
+
 /* ***************SECTION STEPS START*************** */
-.section-steps{
+.section-steps {
     padding: 100px 0px;
+    margin-top: 50px;
 }
-.step-1-content{
+
+.step-1-content {
     background-color: #F5F5ED;
     padding: 50px 100px;
     position: relative;
 }
-.stetp-section-title p{
+
+.stetp-section-title p {
     font-size: 32px;
-    color:#003A58;
+    color: #003A58;
     font-weight: 700;
+    margin-bottom: 65px;
 }
-.step-1-title p{
+
+.step-1-title p {
     font-size: 28px;
     margin: 0px 0px 50px;
-    color:#003A58;
+    color: #003A58;
     font-weight: 700;
 }
-.price-btn{
+
+.price-btn {
     background-color: #6A8C7A;
     color: #fff;
     width: 100%;
@@ -84,17 +117,25 @@ margin-bottom: -50px;
     border-radius: 8px;
     font-size: 18px;
 }
-.step-1-card{
+.price-btn:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.step-1-card {
     border: none;
     background-color: transparent;
 }
-.card-img-top{
+.step-1-card:before{
+
+}
+.card-img-top {
     height: 250px;
     object-fit: contain;
 }
-.step-circle{
-    width: 150px;
-    height: 150px;
+
+.step-circle {
+    width: 159px;
+    height: 159px;
     color: #fff;
     background: #003A58;
     border-radius: 50%;
@@ -107,43 +148,60 @@ margin-bottom: -50px;
     align-items: center;
     transform: translateY(-50%);
 }
-.step-circle span{
+
+.step-circle span {
     font-size: 30px;
     color: #ffff;
 }
+
 /* **************STEP TWO CONTENT***************  */
-.step-2-content , .step-3-content , .step-4-content{ 
+.step-2-content,
+.step-3-content,
+.step-4-content {
     background-color: #F5F5ED;
     padding: 50px 100px;
 }
-.step-2-row{
+
+.step-2-row {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
-.step-2-img img{
+
+.step-2-img img {
     width: 200px;
     height: 200px;
     object-fit: contain;
 }
-.step-four-row{
+
+.step-four-row {
     display: flex;
-  justify-content: center;
- column-gap: 30px;
+    justify-content: center;
+    column-gap: 30px;
+    align-items: center;
 }
-.message-clippath{
+
+.message-clippath {
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 40% 75%, 5% 100%, 15% 75%, 0% 75%);
     background: #8CC1E1;
-    height: 267px;
-    width: 280px;
+    height: 200px;
+    width: 220px;
     border-radius: 5px;
 }
+.message-clippath p{
+font-size: 28px;
+color:#fff;
+margin-bottom: 0px;
+text-align: center;
+}
+.card step-1-card
 /* **************STEP FOUR CONTENT***************  */
 @media only screen and (max-width:768px) {
-    .main-header-sub-title h1{
+    .main-header-sub-title h1 {
         font-size: 30px;
     }
-    .section-main{
+
+    .section-main {
         height: auto;
     }
 }
